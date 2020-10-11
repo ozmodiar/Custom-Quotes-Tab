@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>Custom Quotes Tab Options</title></head>
+<body>
+<div class="">
+    <p>You can enter your quotes below in the following format: this-is-a-quote|author <br />
+        Please keep the following things in mind:</p>
+    <ul>
+        <li>Only one quote per line. Long quotes can span multiple lines but don't use an enter in those cases.</li>
+        <li>If you don't define an author after a "pipe" character, "Unknown" will be shown.</li>
+        <li>Empty lines will be filtered out and will not show up.</li>
+    </ul>
+
+</div>
+<label for="quotes">Quotes:</label>
+<textarea id="quotes" name="quotes" rows="20" cols="100"></textarea>
+
+<div id="status"></div>
+<button id="save">Save</button>
+
+<script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "Custom Quotes Tab",
+  "version": "0.1.0",
+  "description": "Show quotes of your own choosing on a new tab",
+  "manifest_version": 2,
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
