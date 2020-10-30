@@ -5,6 +5,7 @@ Each time a new tab is opened, a random quote will be chosen from your collectio
 ## Installation
 - Download this extension into a folder on your local filesystem
 - Go to the [Chrome extension page](chrome://extensions/)
+- Ensure that the "Developer mode" checkbox in the top right-hand corner is checked
 - Click the "Load Unpacked" button
 - Select the folder where this extension is located
 - Move on to the configuration section
